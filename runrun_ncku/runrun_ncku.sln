@@ -1,14 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "runrun_ncku", "Assembly-CSharp-firstpass.csproj", "{99BA6575-C23C-37C4-C6E4-22BE285594E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "runrun_ncku", "Assembly-CSharp-Editor-firstpass.csproj", "{196377B8-D8DF-A583-403F-1E6ED92351F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{99BA6575-C23C-37C4-C6E4-22BE285594E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BA6575-C23C-37C4-C6E4-22BE285594E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BA6575-C23C-37C4-C6E4-22BE285594E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BA6575-C23C-37C4-C6E4-22BE285594E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196377B8-D8DF-A583-403F-1E6ED92351F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196377B8-D8DF-A583-403F-1E6ED92351F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196377B8-D8DF-A583-403F-1E6ED92351F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196377B8-D8DF-A583-403F-1E6ED92351F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
