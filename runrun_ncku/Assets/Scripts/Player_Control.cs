@@ -22,4 +22,16 @@ public class Player_Control : MonoBehaviour {
                 transform.position = transform.position + new Vector3(0, -0.5f, 0);
         }
     }
+    void OnCollisionEnter2D(Collision2D c)
+    {
+        Debug.Log(c.transform.name);
+        if (c.transform.name=="coin_1")
+        {
+            score += 500;
+            Debug.Log(score);
+            Destroy(c.transform.parent.gameObject);
+        }
+        
+    }
+    int score=0;
 }
