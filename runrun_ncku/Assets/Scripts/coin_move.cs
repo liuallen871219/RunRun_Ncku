@@ -11,8 +11,11 @@ public class coin_move : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (transform.position.x < -6.0f)
+        if (transform.position.x < -10.0f)
+        {
             Destroy(transform.gameObject);
+            Destroy(transform.parent.gameObject);
+        }
         
 	    	
 	}

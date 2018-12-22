@@ -15,7 +15,8 @@ public class generateCoin : MonoBehaviour {
 	}
     void generate()
     {
-        Instantiate(coin).transform.position = new Vector3(5, Random.Range(-1, 1) * 0.5f + (-4.28f), 0);
+        Instantiate(coin).transform.position = new Vector3(5, Mathf.Round(Random.Range(-1, 1.5f)) * 1.7f + (-2.88f), 0);
+        //Debug.Log(Mathf.Round(Random.Range(-1, 1)));
     }
     public GameObject coin;
 }
