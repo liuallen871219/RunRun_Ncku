@@ -13,7 +13,7 @@ public class Player_Control : MonoBehaviour {
 	void Update () {
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         {  
-            if (transform.position.y <= -2.5f)
+            if (transform.position.y <= -4.2f)
                 transform.position = transform.position + new Vector3(0, 1.7f, 0);
         }
         if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
