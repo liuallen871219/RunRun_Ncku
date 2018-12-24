@@ -176,6 +176,9 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/劉安倫/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
+ <Reference Include="System.Drawing">
+ <HintPath>C:/Users/劉安倫/Documents/test/RunRun_Ncku/runrun_ncku/Assets/System.Drawing.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -23,7 +23,7 @@ public class obstacle_move : MonoBehaviour {
         transform.position = transform.position + new Vector3(move_speed, 0, 0);
         if (transform.position.x < -10.0f)
         {
-            Destroy(transform.gameObject);
+            Destroy(transform.parent.gameObject);
 
         }
     }
