@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\background_move.cs" />
      <Compile Include="Assets\Scripts\coin_move.cs" />
+     <Compile Include="Assets\Scripts\Extinguishing.cs" />
      <Compile Include="Assets\Scripts\generateBarrier.cs" />
      <Compile Include="Assets\Scripts\generateCoin.cs" />
      <Compile Include="Assets\Scripts\obstacle_move.cs" />
