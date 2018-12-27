@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Player_Control : MonoBehaviour {
 
 	// Use this for initialization
@@ -11,6 +11,7 @@ public class Player_Control : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+   
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         {  
             if (transform.position.y <= -4.2f)
@@ -21,7 +22,9 @@ public class Player_Control : MonoBehaviour {
             if (transform.position.y >= -5.9f)
                 transform.position = transform.position + new Vector3(0, -1.7f, 0);
         }
+
         //Debug.Log(transform.position.y);
+     
     }
     void OnCollisionEnter2D(Collision2D c)
     {
@@ -29,10 +32,28 @@ public class Player_Control : MonoBehaviour {
         if (c.transform.name == "coin_1")
         {
             score += 500;
+            score_text.text =  score.ToString() ;
             Debug.Log(score);
             Destroy(c.transform.parent.gameObject);
         }
+        if(c.transform.name =="image")
+        {
+            currentHealth = currentHealth - 5;
+            Debug.Log(currentHealth);
+            Hurt.sizeDelta = new Vector2(currentHealth, Hurt.sizeDelta.y);
+
+        }
         
     }
+    
     int score=0;
+    public const int maxHealth = 200;
+    public int currentHealth = maxHealth;
+
+    //血量條
+
+    public RectTransform HealthBar, Hurt;
+    public Text score_text;
+    
+   
 }

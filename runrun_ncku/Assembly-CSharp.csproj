@@ -56,8 +56,12 @@
      <Compile Include="Assets\Scripts\Extinguishing.cs" />
      <Compile Include="Assets\Scripts\generateBarrier.cs" />
      <Compile Include="Assets\Scripts\generateCoin.cs" />
+     <Compile Include="Assets\Scripts\healthBar.cs" />
      <Compile Include="Assets\Scripts\obstacle_move.cs" />
      <Compile Include="Assets\Scripts\Player_Control.cs" />
+     <None Include="Assets\Resources\PNG Grass\Spritesheet\sheet.xml" />
+     <None Include="Assets\spritefont_and_other\document_and_picturelist\readme.txt" />
+     <None Include="Assets\Pixel Font - Tripfive\_README.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
