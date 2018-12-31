@@ -6,7 +6,7 @@ public class Player_Control : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        source = gameObject.GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -35,6 +35,9 @@ public class Player_Control : MonoBehaviour {
             score_text.text =  score.ToString() ;
             Debug.Log(score);
             Destroy(c.transform.parent.gameObject);
+            source.clip = music_1;
+            source.Play();
+
         }
         if(c.transform.name =="image")
         {
@@ -54,6 +57,8 @@ public class Player_Control : MonoBehaviour {
 
     public RectTransform HealthBar, Hurt;
     public Text score_text;
-    
-   
+    public AudioClip music_1;
+    public AudioClip music_2;
+    public AudioSource source;
+
 }
