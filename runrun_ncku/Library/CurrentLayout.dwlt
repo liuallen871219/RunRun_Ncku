@@ -116,9 +116,12 @@ MonoBehaviour:
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 94
 --- !u!114 &6
 =======
+=======
+>>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
   controlID: 72
 --- !u!114 &3
 >>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
@@ -286,9 +289,12 @@ MonoBehaviour:
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 108
 --- !u!114 &13
 =======
+=======
+>>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
   controlID: 11
 --- !u!114 &10
 >>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
@@ -315,9 +321,12 @@ MonoBehaviour:
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 109
 --- !u!114 &14
 =======
+=======
+>>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
   controlID: 12
 --- !u!114 &11
 >>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
@@ -614,6 +623,9 @@ MonoBehaviour:
     m_SelectedIDs: 5a330000
     m_LastClickedID: 13146
     m_ExpandedIDs: 00000000e027000038330000983d000026410000284100002a41000000ca9a3bffffff7f
+<<<<<<< HEAD
+>>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
+=======
 >>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -643,7 +655,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000e8270000403300009c3d0000204100002241000024410000
+=======
+    m_ExpandedIDs: 00000000e027000038330000983d000026410000284100002a410000
+>>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
 =======
     m_ExpandedIDs: 00000000e027000038330000983d000026410000284100002a410000
 >>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
@@ -678,8 +694,13 @@ MonoBehaviour:
     m_RenameOverlay:
       m_UserAcceptedRename: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Name: main_game
       m_OriginalName: main_game
+=======
+      m_Name: 
+      m_OriginalName: 
+>>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
 =======
       m_Name: 
       m_OriginalName: 
@@ -691,7 +712,11 @@ MonoBehaviour:
         width: 0
         height: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_UserData: 13444
+=======
+      m_UserData: 0
+>>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
 =======
       m_UserData: 0
 >>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
@@ -781,6 +806,9 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: 3abffffff0bfffff4cc1ffff06f7ffff9efbffff00000000d84000002e420000
+<<<<<<< HEAD
+>>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
+=======
 >>>>>>> 9b4045ad13a3cfe333da956fc2516ce1ca631450
     m_RenameOverlay:
       m_UserAcceptedRename: 0
