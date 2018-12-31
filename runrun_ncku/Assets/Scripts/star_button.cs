@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
-public class star_button : MonoBehaviour ,IPointerClickHandler
-{
+public class star_button : MonoBehaviour, IPointerClickHandler { 
 
 	// Use this for initialization
 	void Start () {
@@ -18,8 +17,11 @@ public class star_button : MonoBehaviour ,IPointerClickHandler
 	}
     public void OnPointerClick(PointerEventData e)
     {
-        SceneManager.LoadScene(1);
+        //SceneManager.LoadScene(1);
+        Initiate.Fade(scene, loadToColor, 0.8f);
         Debug.Log("Load main game");
     }
 
+    public string scene = "main_game";
+    public Color loadToColor = Color.white;
 }

@@ -22,9 +22,19 @@ public class Player_Control : MonoBehaviour {
             if (transform.position.y >= -5.9f)
                 transform.position = transform.position + new Vector3(0, -1.7f, 0);
         }
-
+        fixed_time = fixed_time - Time.deltaTime;
+        if (fixed_time <= 0)
+        {
+            seconds = seconds + 1;
+            Debug.Log(seconds);
+            fixed_time = 1.0f;
+        }
+        if (seconds == 5)
+        {
+            Initiate.Fade(scene, loadToColor, 0.8f);
+        }
         //Debug.Log(transform.position.y);
-     
+
     }
     void OnCollisionEnter2D(Collision2D c)
     {
@@ -45,14 +55,13 @@ public class Player_Control : MonoBehaviour {
             Debug.Log(currentHealth);
             Hurt.sizeDelta = new Vector2(currentHealth, Hurt.sizeDelta.y);
 
-        }
-        
+        } 
     }
     
     int score=0;
     public const int maxHealth = 200;
     public int currentHealth = maxHealth;
-
+    public float seconds = 0.0f, fixed_time = 1.0f;
     //血量條
 
     public RectTransform HealthBar, Hurt;
@@ -60,5 +69,7 @@ public class Player_Control : MonoBehaviour {
     public AudioClip music_1;
     public AudioClip music_2;
     public AudioSource source;
+    public string scene = "ghost";
+    public Color loadToColor = Color.white;
 
 }
