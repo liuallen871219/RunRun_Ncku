@@ -17,3 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ghost.unity
     guid: 777ea331dc8742a4b8f0be0731e52dc1
+  - enabled: 1
+    path: Assets/Scenes/tree_intro_1.unity
+    guid: c7306057a5835b541af528ab2de7cdd0
+  - enabled: 1
+    path: Assets/Scenes/tree_intro_2.unity
+    guid: d47829c1ee19e16479bf09949fa64293

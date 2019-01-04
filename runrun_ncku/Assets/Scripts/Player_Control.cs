@@ -29,8 +29,9 @@ public class Player_Control : MonoBehaviour {
             Debug.Log(seconds);
             fixed_time = 1.0f;
         }
-        if (seconds == 5)
+        if (seconds == 50)
         {
+            scene = "tree_intro_1";
             Initiate.Fade(scene, loadToColor, 0.8f);
         }
         //Debug.Log(transform.position.y);
@@ -55,13 +56,19 @@ public class Player_Control : MonoBehaviour {
             Debug.Log(currentHealth);
             Hurt.sizeDelta = new Vector2(currentHealth, Hurt.sizeDelta.y);
 
-        } 
+        }
+        if (c.transform.name == "tool")
+        {
+            Destroy(c.transform.parent.gameObject);
+            Debug.Log("tool");
+
+        }
     }
     
     int score=0;
     public const int maxHealth = 200;
     public int currentHealth = maxHealth;
-    public float seconds = 0.0f, fixed_time = 1.0f;
+    static public float seconds = 0.0f, fixed_time = 1.0f;
     //血量條
 
     public RectTransform HealthBar, Hurt;
@@ -69,7 +76,7 @@ public class Player_Control : MonoBehaviour {
     public AudioClip music_1;
     public AudioClip music_2;
     public AudioSource source;
-    public string scene = "ghost";
+    public string scene;
     public Color loadToColor = Color.white;
 
 }

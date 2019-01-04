@@ -17,7 +17,7 @@ public class generateBarrier : MonoBehaviour {
     }
     void generate()
     {
-        Instantiate(barrier).transform.position = new Vector3(10, Mathf.Round(Random.Range(-1, 1.5f)) * 1.7f + (-2.88f), 0);
+        Instantiate(barrier).transform.position = new Vector3(10, Mathf.Round(Random.Range(-1, 1.5f)) * 1.7f + (-2.60f), 0);
         //Debug.Log(Mathf.Round(Random.Range(-1, 1)));
     }
     public GameObject barrier;

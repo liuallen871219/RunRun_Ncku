@@ -56,10 +56,12 @@
      <Compile Include="Assets\Scripts\Extinguishing.cs" />
      <Compile Include="Assets\Scripts\generateBarrier.cs" />
      <Compile Include="Assets\Scripts\generateCoin.cs" />
+     <Compile Include="Assets\Scripts\generateTool.cs" />
      <Compile Include="Assets\Scripts\healthBar.cs" />
      <Compile Include="Assets\Scripts\obstacle_move.cs" />
      <Compile Include="Assets\Scripts\Player_Control.cs" />
      <Compile Include="Assets\Scripts\star_button.cs" />
+     <Compile Include="Assets\Scripts\turn_page.cs" />
      <Compile Include="Assets\Simple Scene Fade Load System\Demo (You don&apos;t have to import this folder)\DemoScript.cs" />
      <Compile Include="Assets\Simple Scene Fade Load System\Scripts\Fader.cs" />
      <Compile Include="Assets\Simple Scene Fade Load System\Scripts\Initiate.cs" />
