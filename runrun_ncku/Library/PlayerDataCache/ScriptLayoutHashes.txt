@@ -6,6 +6,8 @@ Assets/Scenes/tree.unity
 Assets/Scenes/ghost.unity
 Assets/Scenes/tree_intro_1.unity
 Assets/Scenes/tree_intro_2.unity
+Assets/Scenes/taiwanese_intro_1.unity
+Assets/Scenes/taiwanese_intro_2.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -122,6 +124,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
+7f6f3c31cc18fba8f7937ae06ec33f4d Assembly-CSharp.dll:.turn_page
 dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.background_move
 6e714b24188cddfc9ae1e07d05ed4ddd Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ParticleSystemDestroyer
 7f6f3c31cc18fba8f7937ae06ec33f4d Assembly-CSharp.dll:.star_button
@@ -188,4 +191,3 @@ a67fe296c194fae433490977dcfd9c56 Assembly-CSharp.dll:.healthBar
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FPSCounter
 a412f64ff4e4667098f82b7fa0bf56e2 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.PlatformerCharacter2D
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-7f6f3c31cc18fba8f7937ae06ec33f4d Assembly-CSharp.dll:.turn_page

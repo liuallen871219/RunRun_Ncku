@@ -23,3 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/tree_intro_2.unity
     guid: d47829c1ee19e16479bf09949fa64293
+  - enabled: 1
+    path: Assets/Scenes/taiwanese_intro_1.unity
+    guid: 906c2c30bc4e67c4abee7bd96f69d0e0
+  - enabled: 1
+    path: Assets/Scenes/taiwanese_intro_2.unity
+    guid: c4a1497628eed9c4f985497641095ed8

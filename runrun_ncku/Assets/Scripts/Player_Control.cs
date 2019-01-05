@@ -29,14 +29,20 @@ public class Player_Control : MonoBehaviour {
             Debug.Log(seconds);
             fixed_time = 1.0f;
         }
-        if (seconds == 50)
+        if (seconds == 30)
         {
             scene = "tree_intro_1";
             Initiate.Fade(scene, loadToColor, 0.8f);
         }
+        if (seconds == 60)
+        {
+            scene = "taiwanese_intro_1";
+            Initiate.Fade(scene, loadToColor, 0.8f);
+        }
         //Debug.Log(transform.position.y);
-
+        score_text.text = score.ToString();
     }
+
     void OnCollisionEnter2D(Collision2D c)
     {
         Debug.Log(c.transform.name);
@@ -65,9 +71,9 @@ public class Player_Control : MonoBehaviour {
         }
     }
     
-    int score=0;
+    static public int score=0;
     public const int maxHealth = 200;
-    public int currentHealth = maxHealth;
+    static public int currentHealth = maxHealth;
     static public float seconds = 0.0f, fixed_time = 1.0f;
     //血量條
 
