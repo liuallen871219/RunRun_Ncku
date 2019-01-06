@@ -40,7 +40,7 @@ public class turn_page : MonoBehaviour {
         }
         if (seconds == 34)
         {
-            scene = "tree";
+            scene = "sudden";
             Initiate.Fade(scene, loadToColor, 0.8f);
         }
         if (seconds == 42)
@@ -50,7 +50,7 @@ public class turn_page : MonoBehaviour {
         }
         if (seconds == 50)
         {
-            scene = "ghost";
+            scene = "sudden";
             Initiate.Fade(scene, loadToColor, 0.8f);
         }
     }

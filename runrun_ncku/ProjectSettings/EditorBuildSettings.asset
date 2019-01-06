@@ -38,3 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/taiwanese_intro_2.unity
     guid: c4a1497628eed9c4f985497641095ed8
+  - enabled: 1
+    path: Assets/Scenes/sudden.unity
+    guid: 38065af948f73204086acf4d5280ca8b

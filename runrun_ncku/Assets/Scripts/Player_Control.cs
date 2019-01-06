@@ -31,13 +31,20 @@ public class Player_Control : MonoBehaviour {
         }
         if (seconds == 30)
         {
+            sudden_to_small_game.gamemode = 1;
             scene = "tree_intro_1";
-            Initiate.Fade(scene, loadToColor, 0.8f);
+            Initiate.Fade(scene, loadToColor, 2.0f);
         }
-        if (seconds == 60)
+        if (seconds == 62)
         {
+            sudden_to_small_game.gamemode = 2;
             scene = "taiwanese_intro_1";
-            Initiate.Fade(scene, loadToColor, 0.8f);
+            Initiate.Fade(scene, loadToColor, 2.0f);
+        }
+        if (seconds == 94)
+        {
+            //scene = "taiwanese_intro_1";
+            //Initiate.Fade(scene, loadToColor, 2.0f);
         }
         //Debug.Log(transform.position.y);
         score_text.text = score.ToString();
@@ -59,6 +66,7 @@ public class Player_Control : MonoBehaviour {
         if(c.transform.name =="image")
         {
             currentHealth = currentHealth - 5;
+            Destroy(c.transform.parent.gameObject);
             Debug.Log(currentHealth);
             Hurt.sizeDelta = new Vector2(currentHealth, Hurt.sizeDelta.y);
 
@@ -73,7 +81,7 @@ public class Player_Control : MonoBehaviour {
     
     static public int score=0;
     public const int maxHealth = 200;
-    static public int currentHealth = maxHealth;
+    public int currentHealth = maxHealth;
     static public float seconds = 0.0f, fixed_time = 1.0f;
     //血量條
 

@@ -57,14 +57,17 @@
      <Compile Include="Assets\Scripts\exit_button.cs" />
      <Compile Include="Assets\Scripts\Extinguishing.cs" />
      <Compile Include="Assets\Scripts\firing.cs" />
+     <Compile Include="Assets\Scripts\generate_ghost.cs" />
      <Compile Include="Assets\Scripts\generateBarrier.cs" />
      <Compile Include="Assets\Scripts\generateCoin.cs" />
      <Compile Include="Assets\Scripts\generateTool.cs" />
+     <Compile Include="Assets\Scripts\ghost_walking.cs" />
      <Compile Include="Assets\Scripts\healthBar.cs" />
      <Compile Include="Assets\Scripts\how_button.cs" />
      <Compile Include="Assets\Scripts\obstacle_move.cs" />
      <Compile Include="Assets\Scripts\Player_Control.cs" />
      <Compile Include="Assets\Scripts\start_button.cs" />
+     <Compile Include="Assets\Scripts\sudden_to_small_game.cs" />
      <Compile Include="Assets\Scripts\turn_page.cs" />
      <Compile Include="Assets\Scripts\water.cs" />
      <Compile Include="Assets\Simple Scene Fade Load System\Demo (You don&apos;t have to import this folder)\DemoScript.cs" />

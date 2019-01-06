@@ -11,6 +11,7 @@ Assets/Scenes/tree_intro_1.unity
 Assets/Scenes/tree_intro_2.unity
 Assets/Scenes/taiwanese_intro_1.unity
 Assets/Scenes/taiwanese_intro_2.unity
+Assets/Scenes/sudden.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -24,9 +25,10 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-eeeb8b4a3dc2b686d1b4f181a7709d7a Assembly-CSharp.dll:.Player_Control
+b247b6298a16a50cb5de7afcc2166fa8 Assembly-CSharp.dll:.Player_Control
 297652e87faa3f4281419484b9e16b90 Assembly-CSharp.dll:.generateCoin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.exit_button
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -93,6 +95,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+7f6f3c31cc18fba8f7937ae06ec33f4d Assembly-CSharp.dll:.how_button
 8fb4a4883906f4bb83253cce8bd55e6c Assembly-CSharp.dll:.obstacle_move
 a814de1d336587b205e0601e46dcc07d Assembly-CSharp.dll:.generateBarrier
 6c156248975c65e334daa4cbfba64bd1 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectActivator
@@ -152,6 +155,7 @@ a90e94673f50d2237c1b971c138660c6 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ObjectResetter
+7f6f3c31cc18fba8f7937ae06ec33f4d Assembly-CSharp.dll:.start_button
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -187,6 +191,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 db3b233e35a88802fed1717d19c3d9ec Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FollowTarget
 600bf2432747463c84424edccb3c1d05 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.Camera2DFollow
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.back_to_menu
 a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TouchPad
 0ad469aca31264c6140b1e503c43ab6b Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectDestructor
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Extinguishing
@@ -195,7 +200,6 @@ fa624e51d91a92568dc0c77174ef43d2 Assembly-CSharp.dll:.firing
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FPSCounter
 a412f64ff4e4667098f82b7fa0bf56e2 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.PlatformerCharacter2D
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-7f6f3c31cc18fba8f7937ae06ec33f4d Assembly-CSharp.dll:.start_button
-7f6f3c31cc18fba8f7937ae06ec33f4d Assembly-CSharp.dll:.how_button
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.exit_button
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.back_to_menu
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ghost_walking
+cb3568f61df95edf051cef41f7596b37 Assembly-CSharp.dll:.generate_ghost
+7f6f3c31cc18fba8f7937ae06ec33f4d Assembly-CSharp.dll:.sudden_to_small_game
