@@ -6,7 +6,7 @@ public class generateTool : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        InvokeRepeating("generate", 2, time);
+        InvokeRepeating("generate", 10, time);
 	}
 	
 	// Update is called once per frame

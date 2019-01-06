@@ -6,7 +6,7 @@ public class generateCoin : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        InvokeRepeating("generate", 5, time);
+        InvokeRepeating("generate", 2, time);
 	}
 	
 	// Update is called once per frame

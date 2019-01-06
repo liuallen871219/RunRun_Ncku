@@ -7,7 +7,7 @@ public class generateBarrier : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        InvokeRepeating("generate", 10, time);
+        InvokeRepeating("generate", 4, time);
     }
 
     // Update is called once per frame

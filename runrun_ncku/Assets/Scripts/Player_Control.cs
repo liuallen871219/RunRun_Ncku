@@ -65,20 +65,29 @@ public class Player_Control : MonoBehaviour {
         }
         if(c.transform.name =="image")
         {
-            currentHealth = currentHealth - 5;
-            Destroy(c.transform.parent.gameObject);
-            Debug.Log(currentHealth);
-            Hurt.sizeDelta = new Vector2(currentHealth, Hurt.sizeDelta.y);
+            if (!wudi_state)
+            {
+                currentHealth = currentHealth - 5;
+                Destroy(c.transform.parent.gameObject);
+                Debug.Log(currentHealth);
+                Hurt.sizeDelta = new Vector2(currentHealth, Hurt.sizeDelta.y);
+            }
 
         }
         if (c.transform.name == "tool")
         {
             Destroy(c.transform.parent.gameObject);
             Debug.Log("tool");
+            wudi_source.Play();
+            wudi_state = true;
+            Invoke("wudi_to_normal", 5);
 
         }
     }
-    
+    void wudi_to_normal()
+    {
+        wudi_state = false;
+    }
     static public int score=0;
     public const int maxHealth = 200;
     public int currentHealth = maxHealth;
@@ -89,8 +98,10 @@ public class Player_Control : MonoBehaviour {
     public Text score_text;
     public AudioClip music_1;
     public AudioClip music_2;
-    public AudioSource source;
+    public AudioClip wudi;
+    public AudioSource source ,wudi_source;
     public string scene;
     public Color loadToColor = Color.white;
+    public bool wudi_state = false;
 
 }
