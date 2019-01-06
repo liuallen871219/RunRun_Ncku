@@ -18,24 +18,39 @@ public class turn_page : MonoBehaviour {
             Debug.Log(seconds);
             fixed_time = 1.0f;
         }
-        if (seconds == 7)
+        if (seconds == 5)
+        {
+            scene = "begin_intro_2";
+            Initiate.Fade(scene, loadToColor, 0.8f);
+        }
+        if (seconds == 11)
+        {
+            scene = "begin_intro_3";
+            Initiate.Fade(scene, loadToColor, 0.8f);
+        }
+        if (seconds == 17)
+        {
+            scene = "menu";
+            Initiate.Fade(scene, loadToColor, 0.8f);
+        }
+        if (seconds == 25)
         {
             scene = "tree_intro_2";
             Initiate.Fade(scene, loadToColor, 0.8f);
         }
-        if (seconds == 14)
+        if (seconds == 34)
         {
-            scene = "main_game";
+            scene = "tree";
             Initiate.Fade(scene, loadToColor, 0.8f);
         }
-        if (seconds == 21)
+        if (seconds == 42)
         {
             scene = "taiwanese_intro_2";
             Initiate.Fade(scene, loadToColor, 0.8f);
         }
-        if (seconds == 28)
+        if (seconds == 50)
         {
-            scene = "main_game";
+            scene = "ghost";
             Initiate.Fade(scene, loadToColor, 0.8f);
         }
     }

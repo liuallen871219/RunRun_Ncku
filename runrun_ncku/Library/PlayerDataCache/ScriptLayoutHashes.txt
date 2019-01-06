@@ -1,5 +1,8 @@
 WindowsStandalone
 SceneListBegin?
+Assets/Scenes/begin_intro_1.unity
+Assets/Scenes/begin_intro_2.unity
+Assets/Scenes/begin_intro_3.unity
 Assets/Scenes/menu.unity
 Assets/Scenes/main_game.unity
 Assets/Scenes/tree.unity
@@ -21,7 +24,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-b247b6298a16a50cb5de7afcc2166fa8 Assembly-CSharp.dll:.Player_Control
+eeeb8b4a3dc2b686d1b4f181a7709d7a Assembly-CSharp.dll:.Player_Control
 297652e87faa3f4281419484b9e16b90 Assembly-CSharp.dll:.generateCoin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -127,7 +130,6 @@ dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics
 7f6f3c31cc18fba8f7937ae06ec33f4d Assembly-CSharp.dll:.turn_page
 dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.background_move
 6e714b24188cddfc9ae1e07d05ed4ddd Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ParticleSystemDestroyer
-7f6f3c31cc18fba8f7937ae06ec33f4d Assembly-CSharp.dll:.star_button
 879b3df2ab67cfd00172f75f85a7a583 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SimpleMouseRotator
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
@@ -166,6 +168,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.Restarter
 2dbfd4f7836c7f6a79e17be5f4bf7969 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.WaypointCircuit
+eb51b8f0e01b25f062cdea141ef2a470 Assembly-CSharp.dll:.water
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.Platformer2DUserControl
 7b2d2c2a55e04afd5272f2579a88a0b9 Assembly-CSharp.dll:.Fader
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -188,6 +191,11 @@ a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 0ad469aca31264c6140b1e503c43ab6b Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectDestructor
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Extinguishing
 a67fe296c194fae433490977dcfd9c56 Assembly-CSharp.dll:.healthBar
+fa624e51d91a92568dc0c77174ef43d2 Assembly-CSharp.dll:.firing
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FPSCounter
 a412f64ff4e4667098f82b7fa0bf56e2 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.PlatformerCharacter2D
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
+7f6f3c31cc18fba8f7937ae06ec33f4d Assembly-CSharp.dll:.start_button
+7f6f3c31cc18fba8f7937ae06ec33f4d Assembly-CSharp.dll:.how_button
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.exit_button
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.back_to_menu
